@@ -1,0 +1,181 @@
+body {
+	background-image: url(../image/fon-lab2.jpg);
+    font-family:'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+	-webkit-background-size: cover;
+	background-size: cover;
+    color: #fff;
+}
+
+.header {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.main {
+    margin-top: 200px;
+    width: 100%;
+}
+.header__logo-picture {
+    max-height: 200px;
+}
+
+.description{
+    width: 100%;
+    font-size: 20px;
+    text-align:left;
+    margin: 15px 40px;
+    font-size: 20px;
+	background: none;
+	outline: none;
+}
+
+li {
+    list-style-type: none; /* Убираем маркеры */
+}
+
+ul {
+    margin-left: 0; /* Отступ слева в браузере IE и Opera */
+    padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+} 
+
+.list h3{
+	color: #fff;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+.main__form {
+    margin-top: 50px;
+    position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: rgba(0,0,0,.7);
+    padding-bottom: 10px;
+}
+
+.input-form {
+	text-align: center;
+}
+
+.input-form input{
+	padding: 10px;
+    margin-bottom: 10px;
+	width: 90%;
+	color: #fff;
+	font-size: 20px;
+	background: none;
+	outline: none;
+	border: 1px solid #fff;
+	box-sizing: border-box;
+}
+
+.input-form textarea input[type="text"]:focus, .input-form textarea:focus {
+	border: 1px solid #0fc3f5;
+}
+
+.input-form input[type="submit"] {
+	margin-top: 20px;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	border: none;
+	background: #0fc3f5;
+	transition: .3s;
+}
+
+.input-form input[type="submit"]:hover {
+	background: #4442db;
+}
+
+.input-form textarea {
+    width: 90%;
+    opacity: 1;
+    color: #000;
+}
+
+.main__form a {
+	display: block;
+	padding: 0 0 30px;
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+	transition: .3s;
+}
+
+.main__forma:hover {
+	color: #0fc3f5;
+}
+
+.main__form h1 {
+	margin: 30px 100px;
+	padding: 0;
+	text-align: center;
+	color: #fff;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+.footer {
+	position: fixed;
+	top: 90%;
+	width: 100%;
+	/* border: 1px solid #fff; */
+	/* background: #000; */
+}
+
+.footer__desc {
+	display: flex;
+
+	flex-wrap: wrap;
+    align-items:center; /* Пока не точно */
+    justify-content: space-between;
+	margin-left: 200px;
+	min-height: 100px;
+}
+
+.footer__desc-copy{
+    /* border: 1px solid #b3d4fc; */
+    width: 465px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.footer__list{
+	display: flex;
+	flex-wrap: wrap;
+	color: #fff;
+	list-style-type: none;
+	align-items:center;
+  }
+  
+  .footer__item:first-child{
+	margin-right: 25px;
+  }
+  
+  .footer__item:nth-child(2){
+	margin-right: 25px;
+  }
+  
+  .footer__item:nth-child(3){
+	margin-right: 150px;
+  }
+  
+  .footer__link{
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fff;
+  text-decoration: none;
+  }
+  
+  .footer__link:hover, .footer__link:focus, .footer__link:active{
+	opacity: .75; /* изменить под конец*/
+  }
+  
