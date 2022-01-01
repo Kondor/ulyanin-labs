@@ -9,7 +9,7 @@
   <!-- <div class="demo-flex-spacer"></div> -->
   <h1 class="demo">Artem Ulianin</h1>
   <a class="demo" href="http://c917632p.beget.tech/" title="Сайт">Ccылка на Артема</a>
-  <a class="demo" href="http://c917632p.beget.tech/lab_4-1/proba7-1.php">Очистить</a>
+  <a class="demo" href="http://c917632p.beget.tech/lab_4">Очистить</a>
 
   <form method="post" action="index.php">
   <div class="webflow-style-input">
